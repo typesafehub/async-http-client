@@ -559,14 +559,14 @@
     </profiles>
     <distributionManagement>
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Sonatype Release</name>
-            <url>http://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>typesafe</id>
+            <name>typesafe-releases</name>
+            <url>http://typesafe.artifactoryonline.com/typesafe/maven-releases</url>
         </repository>
         <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <name>sonatype-nexus-snapshots</name>
-            <url>${distMgmtSnapshotsUrl}</url>
+            <id>typesafe</id>
+            <name>typesafe-snapshots</name>
+            <url>http://typesafe.artifactoryonline.com/typesafe/maven-snapshots</url>
         </snapshotRepository>
         <site>
             <id>github</id>
